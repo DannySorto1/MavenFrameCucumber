@@ -1,0 +1,114 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 123125724,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I see OrangeHrm logo",
+            "match": {
+              "location": "LoginSteps.i_see_OrangeHrm_logo()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-06-23T17:00:02.926Z",
+        "before": [
+          {
+            "result": {
+              "duration": 9574087352,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.start(Scenario)"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "Valid Login",
+        "description": "",
+        "id": "login;valid-login",
+        "after": [
+          {
+            "result": {
+              "duration": 723670948,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.end(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 557756800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I enter valid usernameand password",
+            "match": {
+              "location": "LoginSteps.i_enter_valid_usernameand_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4497453660,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I clicked Login button",
+            "match": {
+              "location": "LoginSteps.i_clicked_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 232219149,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I successfully logged in",
+            "match": {
+              "location": "LoginSteps.i_successfully_logged_in()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@login"
+          },
+          {
+            "name": "@temp"
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Login.feature",
+    "tags": []
+  }
+]
